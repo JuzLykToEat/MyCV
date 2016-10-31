@@ -4,24 +4,24 @@
   "mobile" : "+6016-6784782",
   "email" : "low.yeongyih@hotmail.com",
   "profile" : "Have keen interest in new technologies and IT field since young and always like to approach new information about them. Worked for a start-up technology company to gain exposure to start-up environment and also have a glimpse in technology world. Joined a boot-camp to learn the basics of full stack web development. Participation in clubs and societies since high school developed strong communication skills and teamwork mind set.",
-  "achievements" : {
-    "1" : "Participated in a week long community service to a rural village, worked in groups to provide help to the locals and was voted as the best male member.",
-    "2" : "Joined a Work and Travel program to the United States of America for the summer.",
-    "3" : "Participated in a student exchange program to the United Kingdom campus for the whole year 2.",
-    "4" : "Secured sponsorships of RM20,000 for “Make A Smile 2011” charity event."
-  },
+  "achievements" : [
+    "Participated in a week long community service to a rural village, worked in groups to provide help to the locals and was voted as the best male member.",
+    "Joined a Work and Travel program to the United States of America for the summer.",
+    "Participated in a student exchange program to the United Kingdom campus for the whole year 2.",
+    "Secured sponsorships of RM20,000 for “Make A Smile 2011” charity event."
+  ],
   "employments" : [
     "KFit - Internship",
     "Paradise Inn Mt.Rainier, Washington, US - Work and Travel Program",
     "Steadcom - Internship",
     "Packet One Network - Elite Sales Services"
   ],
-  "education" : {
-    "1" : "Malaysia Global Innovation & Creativity Centre Academy - Full Stack Web Development (Ruby on Rails)",
-    "2" : "Malaysia Global Innovation & Creativity Centre Academy - Android App Development",
-    "3" : "University of Nottingham - MEng (Hons) Electrical & Electronic Engineering",
-    "4" : "INTI College - CIE A-Levels"
-  },
+  "education" : [
+    "Malaysia Global Innovation & Creativity Centre Academy - Full Stack Web Development (Ruby on Rails)",
+    "Malaysia Global Innovation & Creativity Centre Academy - Android App Development",
+    "University of Nottingham - MEng (Hons) Electrical & Electronic Engineering",
+    "INTI College - CIE A-Levels"
+  ],
   "core-skills" : [
     {"it-skills" :
       [
