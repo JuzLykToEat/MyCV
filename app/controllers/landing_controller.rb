@@ -14,7 +14,6 @@ require 'json'
     @education = data_hash['education']
     @core_skills = data_hash['core-skills']
     @interests = data_hash['interests']
-    binding.pry
   end
 
 end
