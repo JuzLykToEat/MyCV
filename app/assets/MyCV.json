@@ -1,0 +1,41 @@
+{
+  "name" : "Low Yeong Yih",
+  "address" : "26, Jalan PP 2, Taman Pinggiran Putra, 43300 Seri Kembangan, Selangor, Malaysia",
+  "mobile" : "+6016-6784782",
+  "email" : "low.yeongyih@hotmail.com",
+  "profile" : "Have keen interest in new technologies and IT field since young and always like to approach new information about them. Worked for a start-up technology company to gain exposure to start-up environment and also have a glimpse in technology world. Joined a boot-camp to learn the basics of full stack web development. Participation in clubs and societies since high school developed strong communication skills and teamwork mind set.",
+  "achievements" : {
+    "1" : "Participated in a week long community service to a rural village, worked in groups to provide help to the locals and was voted as the best male member.",
+    "2" : "Joined a Work and Travel program to the United States of America for the summer.",
+    "3" : "Participated in a student exchange program to the United Kingdom campus for the whole year 2.",
+    "4" : "Secured sponsorships of RM20,000 for “Make A Smile 2011” charity event."
+  },
+  "employments" : [
+    "KFit - Internship",
+    "Paradise Inn Mt.Rainier, Washington, US - Work and Travel Program",
+    "Steadcom - Internship",
+    "Packet One Network - Elite Sales Services"
+  ],
+  "education" : {
+    "1" : "Malaysia Global Innovation & Creativity Centre Academy - Full Stack Web Development (Ruby on Rails)",
+    "2" : "Malaysia Global Innovation & Creativity Centre Academy - Android App Development",
+    "3" : "University of Nottingham - MEng (Hons) Electrical & Electronic Engineering",
+    "4" : "INTI College - CIE A-Levels"
+  },
+  "core-skills" : [
+    {"it-skills" :
+      [
+        "Programming Languages – Ruby, C++, Java, VHDL",
+        "Version Control – Git",
+        "CAD Software – Solidworks, ModelSim"
+      ]
+    },
+    "Good teamwork ability and able to lead a group.",
+    "Excellent organisational skills.",
+    "Well-developed analytical and numerical ability."
+  ],
+  "interests" : [
+    "Piano - ABRSM Grade 5",
+    "Body Building"
+  ]
+}
