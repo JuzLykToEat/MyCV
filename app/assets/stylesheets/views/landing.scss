@@ -1,3 +1,16 @@
 .landing {
-  
+  .body {
+    max-width: 1000px;
+    margin: 10px auto;
+  }
+
+  .tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .tab-pane {
+    padding: 10px 10px;
+  }
 }

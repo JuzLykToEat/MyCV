@@ -1,47 +1,50 @@
 <div class='landing'>
-  <h4>Name: <%= @name %></h4>
-  <h4>Address: <%= @address %></h4>
-  <h4>Mobile: <%= @mobile %></h4>
-  <h4>Email: <%= @email %></h4>
-
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-    <li role="presentation"><a href="#achievements" aria-controls="achievements" role="tab" data-toggle="tab">Achievements</a></li>
-    <li role="presentation"><a href="#employments" aria-controls="employments" role="tab" data-toggle="tab">Employments</a></li>
-    <li role="presentation"><a href="#education" aria-controls="education" role="tab" data-toggle="tab">Education</a></li>
-    <li role="presentation"><a href="#core_skills" aria-controls="core_skills" role="tab" data-toggle="tab">Core skills</a></li>
-    <li role="presentation"><a href="#interests" aria-controls="interests" role="tab" data-toggle="tab">Interests</a></li>
-  </ul>
-
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="profile"><%= @profile %></div>
-    <div role="tabpanel" class="tab-pane" id="achievements">
-      <% @achievements.each do |achievement| %>
-        <li><%= achievement %></li>
-      <% end %>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="employments">
-      <% @employments.each do |employment| %>
-        <li><%= employment %></li>
-      <% end %>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="education">
-      <% @education.each do |education| %>
-        <li><%= education %></li>
-      <% end %>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="core_skills">
-      <% @core_skills.each do |core_skill| %>
-        <li><%= core_skill %></li>
-      <% end %>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="interests">
-      <% @interests.each do |interest| %>
-        <li><%= interest %></li>
-      <% end %>
-    </div>
+  <div class='header text-center'>
+    <h4><%= @name %></h4>
+    <h4><%= @address %></h4>
+    <h4><%= @mobile %></h4>
+    <h4><%= @email %></h4>
   </div>
 
+  <div class='body'>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+      <li role="presentation"><a href="#achievements" aria-controls="achievements" role="tab" data-toggle="tab">Achievements</a></li>
+      <li role="presentation"><a href="#employments" aria-controls="employments" role="tab" data-toggle="tab">Employments</a></li>
+      <li role="presentation"><a href="#education" aria-controls="education" role="tab" data-toggle="tab">Education</a></li>
+      <li role="presentation"><a href="#core_skills" aria-controls="core_skills" role="tab" data-toggle="tab">Core skills</a></li>
+      <li role="presentation"><a href="#interests" aria-controls="interests" role="tab" data-toggle="tab">Interests</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade in active" id="profile"><%= @profile %></div>
+      <div role="tabpanel" class="tab-pane" id="achievements">
+        <% @achievements.each do |achievement| %>
+          <li><%= achievement %></li>
+        <% end %>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="employments">
+        <% @employments.each do |employment| %>
+          <li><%= employment %></li>
+        <% end %>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="education">
+        <% @education.each do |education| %>
+          <li><%= education %></li>
+        <% end %>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="core_skills">
+        <% @core_skills.each do |core_skill| %>
+          <li><%= core_skill %></li>
+        <% end %>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="interests">
+        <% @interests.each do |interest| %>
+          <li><%= interest %></li>
+        <% end %>
+      </div>
+    </div>
+  </div>
 </div>
