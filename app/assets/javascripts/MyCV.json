@@ -11,16 +11,57 @@
     "Secured sponsorships of RM20,000 for “Make A Smile 2011” charity event."
   ],
   "employments" : [
-    "KFit - Internship",
-    "Paradise Inn Mt.Rainier, Washington, US - Work and Travel Program",
-    "Steadcom - Internship",
-    "Packet One Network - Elite Sales Services"
+    ["KFit - Internship",
+     "March – June 2016", [
+      "Working in Business Intelligence Department helping generating leads for future development of the company.",
+      "Organising events to promote the culture of our company to outsiders as a part of a side project of the intern group.",
+      "Helping to organise events to improve working experience in the company."
+      ]],
+    ["Paradise Inn Mt.Rainier, Washington, US - Work and Travel Program",
+     "June – September 2015", [
+      "Worked as a housekeeper in a historical hotel in a national park.",
+      "Interacted and worked alongside with people from different countries and cultures.",
+      "Experienced and got to know the cultural difference of people from different part of the world."
+      ]],
+    ["Steadcom - Internship",
+     "June – August 2014", [
+      "Performed various test on the antenna for mobile phone connection.",
+      "Optimised the configuration of the antenna for best performance.",
+      "Write report of the performance of the tested antenna."
+      ]],
+    ["Packet One Network - Elite Sales Services",
+     "July – September 2012", [
+      "Introduce and sell company’s internet plan to new customers.",
+      "Helped existing customer solve minor technical issues through phone.",
+      "Top sale of week 2 and 3 August."
+      ]]
   ],
   "education" : [
-    "Malaysia Global Innovation & Creativity Centre Academy - Full Stack Web Development (Ruby on Rails)",
-    "Malaysia Global Innovation & Creativity Centre Academy - Android App Development",
-    "University of Nottingham - MEng (Hons) Electrical & Electronic Engineering",
-    "INTI College - CIE A-Levels"
+    ["Malaysia Global Innovation & Creativity Centre Academy - Full Stack Web Development (Ruby on Rails)",
+     "August – October 2016", [
+      "Forum",
+      "E-Commerce Shop",
+      "API for mobile applicaion",
+      "Platform for music teachers/students"
+      ]],
+    ["Malaysia Global Innovation & Creativity Centre Academy - Android App Development",
+     "August – October 2016", [
+      "Trail Logger"
+      ]],
+    ["University of Nottingham - MEng (Hons) Electrical & Electronic Engineering",
+     "September 2011 – June 2015", [
+      "Introduction to Computer Engineering (C)",
+      "Software Engineering Design (C++)",
+      "Web Based Computing (Java)"
+     ]],
+    ["INTI College - CIE A-Levels",
+     "March 2010 – June 2011", [
+      "Mathematics - A",
+      "Physic - A",
+      "Thinking Skills (AS-level) - A",
+      "Chemistry - B",
+      "Economics - C"
+     ]]
   ],
   "core-skills" : [
     {"it-skills" :

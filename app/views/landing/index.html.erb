@@ -27,17 +27,37 @@
       </div>
       <div role="tabpanel" class="tab-pane fade" id="employments">
         <% @employments.each do |employment| %>
-          <li><%= employment %></li>
+          <b><%= employment[0] %></b><br>
+          <i><%= employment[1] %></i><br>
+          <% employment[2].each do |description| %>
+            <li><%= description %></li>
+          <% end %>
+          <hr>
         <% end %>
       </div>
       <div role="tabpanel" class="tab-pane fade" id="education">
         <% @education.each do |education| %>
-          <li><%= education %></li>
+          <b><%= education[0] %></b><br>
+          <i><%= education[1] %></i><br>
+          Subjects:<br>
+          <% education[2].each do |subject| %>
+            <li><%= subject %></li>
+          <% end %>
+          <hr>
         <% end %>
       </div>
       <div role="tabpanel" class="tab-pane fade" id="core_skills">
         <% @core_skills.each do |core_skill| %>
-          <li><%= core_skill %></li>
+          <% if core_skill == @core_skills.first %>
+            <li> IT-skills : </li>
+            <div class="it-skills">
+              <% core_skill['it-skills'].each do |it_skill| %>
+                <i><%= it_skill %></i><br>
+              <% end %>
+            </div>
+          <% else %>
+            <li><%= core_skill %></li>
+          <% end %>
         <% end %>
       </div>
       <div role="tabpanel" class="tab-pane fade" id="interests">
